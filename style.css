@@ -2,13 +2,36 @@
     box-sizing: border-box;
 }
 
-#wrapper {
-    /* border: 1.5px solid black; */
+/* #wrapper {
+    border: 1.5px solid black;
     width: 500px;
     height: 500px;
     text-align: center;
     margin: auto;
     align-items: center;
+} */
+
+h1 {
+    text-align: center;
+}
+
+.calculator {
+    width: 200px;
+    height: 420px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.display {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 24px;
+    overflow: hidden;
 }
 
 .row-one {
